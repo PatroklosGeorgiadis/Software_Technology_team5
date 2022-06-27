@@ -1,4 +1,18 @@
+--uncomment these the first time running script
+
 --CREATE USER getdevadmin WITH PASSWORD 'getdev';
+
+/*CREATE DATABASE hire_dev_db
+    WITH 
+    OWNER = getdevadmin
+    ENCODING = 'UTF8'
+    LC_COLLATE = 'English_United States.1252'
+    LC_CTYPE = 'English_United States.1252'
+    TABLESPACE = pg_default
+    CONNECTION LIMIT = -1;*/
+    
+/*CREATE SCHEMA hire_dev
+    AUTHORIZATION getdevadmin;*/
 
 DROP TABLE IF EXISTS hire_dev.client;
 DROP TABLE IF EXISTS hire_dev.dev;

@@ -2,12 +2,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet"href="style.css">
     <title>Welcome</title>
 </head>
 <body>
 <img width="120px" height="100px" src="getDev.png">
-<button style="border: none;background-color: royalblue; color: white;font-size: 21px;" type="button">Log In</button>
-<button style="border: none;background-color: royalblue; color: white;font-size: 21px;" type="button">Register</button>
+<form action="login.jsp">
+    <table class="table1"><tr><td><button class="editbtn">Log In</button>
+    </td></tr></table>
+</form>
+<form action="register.jsp">
+    <table class="table1"><tr><td><button class="editbtn">Register</button>
+    </td></tr></table>
+</form>
 <br/>
 <form action="" style="background-color: lightseagreen;text-align:center">
     <h1 style="color: white"><%= "Find someone to help you create your dream project" %></h1>

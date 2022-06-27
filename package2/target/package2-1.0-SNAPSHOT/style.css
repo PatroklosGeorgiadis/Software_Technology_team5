@@ -16,3 +16,13 @@
     text-align: center;
     background-color: powderblue;
 }
+.body4{
+    text-align: center;
+    background-color: aquamarine;
+}
+.editbtn{
+    border: none;
+    background-color: royalblue;
+    color: white;
+    font-size: 21px;
+}

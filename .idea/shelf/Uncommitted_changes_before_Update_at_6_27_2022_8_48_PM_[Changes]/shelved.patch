@@ -1,0 +1,39 @@
+Index: package2/target/package2-1.0-SNAPSHOT/index.jsp
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><%@ page contentType=\"text/html; charset=UTF-8\" pageEncoding=\"UTF-8\" %>\r\n<!DOCTYPE html>\r\n<html>\r\n<head>\r\n    <title>JSP - Hello World</title>\r\n</head>\r\n<body>\r\n<img width=\"120px\" height=\"100px\" src=\"getDev.png\">\r\n<button style=\"border: none;background-color: limegreen; color: white;font-size: 21px;\" type=\"button\">Log In</button>\r\n<button style=\"border: none;background-color: limegreen; color: white;font-size: 21px;\" type=\"button\">Register</button>\r\n<br/>\r\n<form action=\"\">\r\n    <h2><%= \"Find someone to help you create your dream project\" %></h2>\r\n    <input type=\"text\" id=\"userid\" name=\"user\">\r\n</form>\r\n<br/>\r\n<form action=\"\">\r\n    <h2><%= \"Find a project to contribute on\" %></h2>\r\n    <input type=\"text\" id=\"projectid\" name=\"project\">\r\n</form>\r\n<br/>\r\n<a href=\"hello-servlet\">Hello Servlet</a>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/package2/target/package2-1.0-SNAPSHOT/index.jsp b/package2/target/package2-1.0-SNAPSHOT/index.jsp
+--- a/package2/target/package2-1.0-SNAPSHOT/index.jsp	(revision a2634b7987ad45d2514c12bb7ec7a44e949ae13f)
++++ b/package2/target/package2-1.0-SNAPSHOT/index.jsp	(date 1656343428762)
+@@ -2,7 +2,7 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+-    <title>JSP - Hello World</title>
++    <title>Welcome</title>
+ </head>
+ <body>
+ <img width="120px" height="100px" src="getDev.png">
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"FrameworkDetectionExcludesConfiguration\">\r\n    <file type=\"web\" url=\"file://$PROJECT_DIR$/package2\" />\r\n  </component>\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/package2/pom.xml\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision a2634b7987ad45d2514c12bb7ec7a44e949ae13f)
++++ b/.idea/misc.xml	(date 1656338246497)
+@@ -10,7 +10,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file

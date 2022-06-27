@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>JSP - Hello World</title>
+    <title>Welcome</title>
 </head>
 <body>
 <img width="120px" height="100px" src="getDev.png">

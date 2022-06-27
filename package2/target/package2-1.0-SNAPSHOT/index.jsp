@@ -21,6 +21,5 @@
     <input type="submit" id="project" value="Search" style="border: none;background-color:white;font-size: 15px;">
 </form>
 <br/>
-<a href="hello-servlet">Hello Servlet</a>
 </body>
 </html>

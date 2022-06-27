@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body class="body4">
-<form method="post">
+<form action="/LoginServlet" method="get">
     <input type="hidden" name="requestType" value="login" />
     <fieldset>
         <table>

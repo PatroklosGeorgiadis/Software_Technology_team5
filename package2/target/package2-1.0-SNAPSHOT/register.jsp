@@ -29,7 +29,7 @@
                                     name="name1" placeholder="Name"></td></tr>
             <tr><td><label>Surname
             </label></td><td><input type="text" id=surname!"
-                                    name="surname1" placeholder="Surame"></td></tr>
+                                    name="surname1" placeholder="Surname"></td></tr>
             <tr><td><label>Date of Birth</label></td><td><select name="day" id="day!"><option select name="imera">Day
                 <option value="1">1</option>
                 <option value="2">2</option><option value="3">3</option><option value="4">4</option>

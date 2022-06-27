@@ -14,9 +14,9 @@
 /*CREATE SCHEMA hire_dev
     AUTHORIZATION getdevadmin;*/
 
+DROP TABLE IF EXISTS hire_dev.project;
 DROP TABLE IF EXISTS hire_dev.client;
 DROP TABLE IF EXISTS hire_dev.dev;
-DROP TABLE IF EXISTS hire_dev.project;
 
 CREATE TABLE hire_dev.client(
 	email varchar(50) NOT NULL,
@@ -41,7 +41,9 @@ CREATE TABLE hire_dev.dev(
 	lastname varchar(30),
 	gender varchar(30),
 	pic bytea,
+	skills text,
 	bio text,
+	portfolio text,
 	PRIMARY KEY(email),
 	UNIQUE(username)
 );
